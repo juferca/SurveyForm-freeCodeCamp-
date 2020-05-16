@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://www.ewrestlingnews.com/wp-content/uploads/2018/02/wrestling-ring-1068x712.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+#title,
+#description {
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 1em;
+  background: linear-gradient(to bottom, #d3d3d3 0%, #a9a9a9 50%, #808080 100%);
+  opacity: .9;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#survey-form label {
+  display: block;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+[type='text'],
+[type='email'],
+[type='number'],
+#dropdown,
+#dropdown-2,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  margin-right: 7px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #05c46b;
+  border: 1px;
+  font-size: 16px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}

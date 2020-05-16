@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsam hic quis?</i></p>
+  </div>
+
+  <form id="survey-form">
+
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Enter your Email" required>
+
+    <label for="number" id="number-label">Age</label>
+    <input type="number" id="number" placeholder="Age" required min="16" max="99">
+
+    <label for="dropdown">As a fan, how would you describe yourself?</label>
+    <select id="dropdown" class="" name="fan-type">
+      <option>--Select a description--</option>
+      <option value="smart">Smart</option>
+      <option value="pessimist">Pessimist</option>
+      <option value="fivestar">Five Star Critic</option>
+      <option value="casual">Casual</option>
+      <option value="hardcore">Hardcore</option>
+    </select>
+
+    <p>Please select your favorite brand:</p>
+      <label><input type="radio" name="wwe-brand" value="raw">RAW</label>
+      <label><input type="radio" name="wwe-brand" value="smackdown">SmackDown</label>
+      <label><input type="radio" name="wwe-brand" value="nxt">NXT</label>
+
+    <label for="dropdown-2">What is your favorite event?</label>
+    <select id="dropdown-2" class="" name="event">
+      <option value="">--Select an event--</option>
+      <option value="rumble">Royal Rumble</option>
+      <option value="chamber">Elimination Chamber</option>
+      <option value="mania">Wrestlemania</option>
+      <option value="mib">Money In the Bank</option>
+      <option value="stomping">Stomping Grounds??</option>
+      <option value="extreme">Extreme Rules</option>
+      <option value="summer">Summer Slam</option>
+      <option value="clash">Clash of Champions</option>
+      <option value="hic">Hell in a Cell</option>
+      <option value="survivor">Survivor Series</option>
+      <option value="tlc">TLC: Tables, ladders & Chairs</option>
+    </select>
+
+    <p>Favorite match type(s):</p>
+      <label><input type="checkbox" value="singles">Singles</label>
+      <label><input type="checkbox" value="tagteam">Tag team</label>
+      <label><input type="checkbox" value="handicap">Handicap</label>
+      <label><input type="checkbox" value="ironman">Iron Man</label>
+      <label><input type="checkbox" value="lumberjack">Lumberjack</label>
+      <label><input type="checkbox" value="lastman">Last Man Standing</label>
+      <label><input type="checkbox" value="noconodq">No Countout / No Disqualification</label>
+      <label><input type="checkbox" value="submission">Submission</label>
+      <label><input type="checkbox" value="streetfight">Street Fight</label>
+      <label><input type="checkbox" value="ladders">Ladders</label>
+      <label><input type="checkbox" value="tables">Tables</label>
+      <label><input type="checkbox" value="weapons">Weapons</label>
+
+    <p>Any ideas or suggestions?</p>
+    <textarea name="textarea" rows="8" cols="80" placeholder="Enter your comments here..."></textarea>
+
+    <button id="submit" type="submit" name="button">Submit</button>
+
+  </form>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
